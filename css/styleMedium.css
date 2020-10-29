@@ -1,5 +1,84 @@
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
+    .nav-container {
+        font-size: 0.8em;
+        padding-top: 30px;
+    }
+
+    .nav-logo img {
+        height: auto;
+    }
+
+    .nav-container li.nav-menu-btn {
+        display: none;
+    }
+
+    .nav-right li:not(:last-child) {
+        display: inline;
+    }
+
+    .carousel-slide img {
+        max-width: 50%;
+    }
+
+    .flex-container {
+        flex-direction: row;
+    }
+
     .flex-item {
         flex-basis: 50%;
+    }
+
+    .flex-sm-reverse-col {
+        flex-direction: column;
+    }
+
+    .carousel-background img {
+        height: auto;
+        width: 100%;
+    }
+
+    .fa-stack {
+        font-size: 5rem;
+    }
+
+    .button {
+        font-size: 32px;
+        padding: 18px 64px;
+    }
+
+    .text-xs {
+        font-size: 0.5em;
+    }
+
+    .text-s {
+        font-size: 0.8em;
+    }
+
+    .text-m {
+        font-size: 1em;
+    }
+
+    .text-l {
+        font-size: 1.5em;
+    }
+
+    .text-xl {
+        font-size: 2em;
+    }
+
+    .heading-s {
+        font-size: 1em;
+    }
+
+    .heading-m {
+        font-size: 1.2em;
+    }
+
+    .heading-l {
+        font-size: 3em;
+    }
+
+    .heading-xl {
+        font-size: 4em;
     }
 }

@@ -16,13 +16,27 @@ const scrollFunction = () => {
         navContainer.style.backgroundColor = "rgba(0, 0, 0, 0.66)";
 
     } else {
-        navContainer.style.paddingTop = "30px";
-        navContainer.style.backgroundColor = "transparent ";
+        const viewWidth = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+
+        if(viewWidth >= 768){
+            navContainer.style.paddingTop = "30px";
+        }
+
+        if(!navContainer.classList.contains("responsive")){
+            navContainer.style.backgroundColor = "transparent";
+        }
     }
 }
 
 const handleNavbarBtn = () => {
+    const navContainer = document.getElementById("navContainer");
 
+    if (navContainer.classList.contains("responsive")) {
+        navContainer.classList.remove("responsive");
+    } else {
+        navContainer.classList.add("responsive");
+        navContainer.style.backgroundColor = "rgba(0, 0, 0, 0.66)";
+    }
 }
 
 /*-------------- CAROUSEL SCRIPTS-----------------------*/
