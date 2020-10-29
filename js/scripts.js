@@ -1,4 +1,4 @@
-/*-------------- SHRINK AND DARKEN NAVBAR -----------------------*/
+/*-------------- NAVBAR SCRIPTS -----------------------*/
 window.onscroll = () => {
     scrollFunction();
 };
@@ -21,10 +21,11 @@ const scrollFunction = () => {
     }
 }
 
+const handleNavbarBtn = () => {
 
-/*-------------- CAROUSEL -----------------------*/
-//Initialize carousel
+}
 
+/*-------------- CAROUSEL SCRIPTS-----------------------*/
 window.onload = handleCarousel = () => {
     let currentCarouselSlide = 0;
 

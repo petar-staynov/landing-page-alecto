@@ -1,49 +1,64 @@
 @media (min-width: 992px) {
-    body {
-        font-size: 14px;
+    .nav-container {
+        font-size: 0.5em;
+    }
+    .nav-container li.nav-menu-btn {
+        display: none;
     }
 
-    .button {
-        font-size: 48px;
+    .nav-right li {
+        display: inline;
     }
 
     .flex-container {
         flex-direction: row;
     }
 
-    .font-xl {
-        font-size: 32px;
+    .flex-item {
+        flex-basis: 25%;
     }
 
-    .font-l {
-        font-size: 24px;
+    .carousel-background img {
+        height: auto;
     }
 
-    .font-m {
-        font-size: 18px;
-    }
-
-    .font-s {
-        font-size: 14px;
-    }
-
-    .font-xs {
-        font-size: 12px;
-    }
-
-    .heading-xl {
+    .fa-stack {
         font-size: 5rem;
     }
 
-    .heading-l {
-        font-size: 4rem;
+    .text-xs {
+        font-size: 0.5em;
     }
 
-    .heading-m {
-        font-size: 30px;
+    .text-s {
+        font-size: 0.8em;
+    }
+
+    .text-m {
+        font-size: 1em;
+    }
+
+    .text-l {
+        font-size: 1.5em;
+    }
+
+    .text-xl {
+        font-size: 2em;
     }
 
     .heading-s {
-        font-size: 24px;
+        font-size: 1em;
+    }
+
+    .heading-m {
+        font-size: 1.2em;
+    }
+
+    .heading-l {
+        font-size: 2em;
+    }
+
+    .heading-xl {
+        font-size: 3em;
     }
 }

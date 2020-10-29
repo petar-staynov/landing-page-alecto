@@ -32,6 +32,11 @@
                     <li><a href="#">Work</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Blog</a></li>
+                    <li class="nav-menu-btn">
+                        <a href="javascript:void(0);" onclick="handleNavbarBtn()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
                 </div>
             </ul>
         </nav>
@@ -40,20 +45,20 @@
 <main>
     <!-- Top Carousel -->
     <section>
-        <div class="carousel-container">
+        <div class="carousel-container text-xl">
             <div class="carousel-background">
                 <img src="./img/carousel1.jpg">
             </div>
             <div id="header-carousel">
                 <div class="carousel-slide fade">
-                    <div class="carousel-slide-text font-m">
+                    <div class="carousel-slide-text">
                         <div class="font-weight-200">
                             <span class="font-weight-bold">Alecto</span> is a simple PSD Template <br/>
-                            <span class="font-weight-300 font-m">
+                            <span class="font-weight-300">
                                 Lorem ipsum dolor sit amet
                             </span>
                         </div>
-                        <button class="button button-blue font-s">Learn more</button>
+                        <!--                        <button class="button button-blue text-l">Learn more</button>-->
                     </div>
                 </div>
                 <div class="carousel-slide fade">
@@ -73,14 +78,14 @@
                 </div>
                 <div class="carousel-slide fade">
                     <div class="carousel-slide-text">
-                        <span class="font-weight-300 font-m">
+                        <span class="font-weight-300">
                                 Donec quis convallis nisi. Ut quis blandit mi. Quisque lobortis cursus risus at tempor. Suspendisse eu lacus rhoncus, mollis quam a, placerat metus.
                         </span>
                     </div>
                 </div>
                 <div class="carousel-slide fade">
                     <div class="carousel-slide-text">
-                        <span class="font-weight-300 font-m">
+                        <span class="font-weight-300">
                                 Cras scelerisque lectus ac porttitor ullamcorper. Praesent eu tellus et est iaculis blandit.
                         </span>
                     </div>
@@ -104,53 +109,54 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="about-container">
-            <h2 class="heading heading-m">About us</h2>
+    <section class="section-container">
+        <div class="about-container pdy-l pdx-m">
+            <h2 class="heading heading-l text-center">About us</h2>
             <hr class="linebreak">
-            <p>Quisque mollis, risus sit amet tempor bibendum, velit enim facilisis magna,</p>
+            <p class="text-m text-center">Quisque mollis, risus sit amet tempor bibendum, velit enim facilisis
+                magna,</p>
             <div class="about-items">
                 <div class="flex-container">
                     <div class="flex-item">
-                        <span class="fa-stack fa-3x circle">
+                        <span class="fa-stack circle">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fas fa-rocket fa-stack-1x fa-inner-icon"></i>
                         </span>
                         <h5 class="heading-m text-black font-weight-500">Lorem ipsum</h5>
-                        <p class="text-description">
+                        <p class="text-description text-s">
                             Suspendisse potenti. Cras in leo a metus feugiat sodales at quis augue. Donec
                             ipsum risus, hendrerit a faucibus vitae, tincidunt eu lacus.
                         </p>
                     </div>
                     <div class="flex-item">
-                        <span class="fa-stack fa-3x circle">
+                        <span class="fa-stack circle">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fas fa-atom fa-stack-1x fa-inner-icon"></i>
                         </span>
                         <h5 class="heading-m text-black font-weight-500">Lorem ipsum</h5>
-                        <p class="text-description">
+                        <p class="text-description text-s">
                             Suspendisse potenti. Cras in leo a metus feugiat sodales at quis augue. Donec
                             ipsum risus, hendrerit a faucibus vitae, tincidunt eu lacus.
                         </p>
                     </div>
                     <div class="flex-item">
-                        <span class="fa-stack fa-3x circle">
+                        <span class="fa-stack circle">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fas fa-chart-line fa-stack-1x fa-inner-icon"></i>
                         </span>
                         <h5 class="heading-m text-black font-weight-500">Lorem ipsum</h5>
-                        <p class="text-description">
+                        <p class="text-description text-s">
                             Suspendisse potenti. Cras in leo a metus feugiat sodales at quis augue. Donec
                             ipsum risus, hendrerit a faucibus vitae, tincidunt eu lacus.
                         </p>
                     </div>
                     <div class="flex-item">
-                        <span class="fa-stack fa-3x circle">
+                        <span class="fa-stack circle">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fas fa-graduation-cap fa-stack-1x fa-inner-icon"></i>
                         </span>
                         <h5 class="heading-m text-black font-weight-500">Lorem ipsum</h5>
-                        <p class="text-description">
+                        <p class="text-description text-s">
                             Suspendisse potenti. Cras in leo a metus feugiat sodales at quis augue. Donec
                             ipsum risus, hendrerit a faucibus vitae, tincidunt eu lacus.
                         </p>
@@ -160,10 +166,35 @@
             <button class="button button-green">Learn more</button>
         </div>
     </section>
+    <section class="section-container section-gray pdy-l">
+        <div class="flex-container pdy-m">
+            <div class="flex-col-2 pdx-m center-div">
+                <img src="./img/camera.png" class="section-img" style="transform: rotate(45deg);">
+            </div>
+            <div class="flex-col-2 pdx-m center-div">
+                <h2 class="heading heading-l">Lorem ipsum</h2>
+                <p class="text-description">Suspendisse potenti. Cras in leo a metus feugiat sodales at quis augue.
+                    Donec
+                    ipsum risus, hendrerit a faucibus vitae, tincidunt eu lacus.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-container pdy-l">
+        <div class="flex-container pdy-m">
+            <div class="flex-col-2 pdl-xl center-div">
+                <h2 class="heading heading-l">Lorem ipsum</h2>
+                <p class="text-description">Suspendisse potenti. Cras in leo a metus feugiat sodales at quis augue.
+                    Donec
+                    ipsum risus, hendrerit a faucibus vitae, tincidunt eu lacus.</p>
+            </div>
+            <div class="flex-col-2 center-div">
+                <img src="./img/laptop.png" class="section-img pdy-l">
+            </div>
+        </div>
+    </section>
 </main>
 <footer>
-    <small style="height: 1000px; display: block">Footer Text</small>
-</footer>
 
+</footer>
 </body>
 </html>

@@ -1,56 +1,92 @@
 @media (min-width: 576px) {
-    body {
-        font-size: 32px;
+    .nav-container {
+        font-size: 3em;
     }
 
-    .button {
-        font-size: 48px;
+    .nav-menu-btn {
+        float: right;
+        display: block;
     }
+
+    /*.nav-right li:not(:last-child) {*/
+    /*    display: none;*/
+    /*}*/
 
     .flex-container {
         flex-direction: column;
-        font-size: 32px;
     }
 
-    .font-xl {
-        font-size: 64px;
+    .flex-item {
+        flex-basis: 100%;
     }
 
-    .font-l {
-        font-size: 56px;
+    .flex-col-2 {
+        width: 80%;
     }
 
-    .font-m {
-        font-size: 48px;
+    .carousel-background img {
+        height: 15em;
     }
 
-    .font-s {
-        font-size: 32px;
+    .fa-stack {
+        font-size: 20vw;
     }
 
-    .font-xs {
-        font-size: 24px;
+    .text-xs {
+        font-size: 1.2em;
     }
 
-    .heading {
-        font-weight: 300;
-        line-height: 1.2;
-        margin: 0;
+    .text-s {
+        font-size: 1.5em;
     }
 
-    .heading-xl {
-        font-size: 12rem;
+    .text-m {
+        font-size: 1.8em;
     }
 
-    .heading-l {
-        font-size: 10rem;
+    .text-l {
+        font-size: 3em;
     }
 
-    .heading-m {
-        font-size: 8rem;
+    .text-xl {
+        font-size: 4em;
     }
 
     .heading-s {
-        font-size: 6rem;
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    .heading-m {
+        text-align: center;
+        font-size: 3em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    .heading-l {
+        text-align: center;
+        font-size: 4em;
+        margin-bottom: 0.8em;
+        margin-top: 0.8em;
+    }
+
+    .heading-xl {
+        text-align: center;
+        font-size: 8em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    .pdx-s {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .pdx-m {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
