@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Petar Staynov">
+    <title>Alecto</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/styleSmall.css">
+    <link rel="stylesheet" type="text/css" href="css/styleMedium.css">
+    <link rel="stylesheet" type="text/css" href="css/styleLarge.css">
+
+    <script src="https://kit.fontawesome.com/d48007455e.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/scripts.js"></script>
+</head>
+<body>
+<header>
+    <div id="navContainer" class="nav-container">
+        <nav>
+            <ul>
+                <div class="nav-left">
+                    <li class="nav-logo">
+                        <a href="#"><img src="img/logo.png"/></a>
+                    </li>
+                </div>
+                <div class="nav-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                </div>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <!-- Top Carousel -->
+    <section>
+        <div class="carousel-container">
+            <div class="carousel-background">
+                <img src="./img/carousel1.jpg">
+            </div>
+            <div id="header-carousel">
+                <div class="carousel-slide fade">
+                    <div class="carousel-slide-text font-m">
+                        <div class="font-weight-200">
+                            <span class="font-weight-bold">Alecto</span> is a simple PSD Template <br/>
+                            <span class="font-weight-300 font-m">
+                                Lorem ipsum dolor sit amet
+                            </span>
+                        </div>
+                        <button class="button button-blue font-s">Learn more</button>
+                    </div>
+                </div>
+                <div class="carousel-slide fade">
+                    <div class="carousel-slide-text">
+                        <span>
+                                This is its simple recreation from an image.
+                        </span>
+                    </div>
+                </div>
+                <div class="carousel-slide fade">
+                    <div class="carousel-slide-text">
+                        <span>
+                                Carousel also supports images
+                        </span>
+                        <img src="./img/600x400.png">
+                    </div>
+                </div>
+                <div class="carousel-slide fade">
+                    <div class="carousel-slide-text">
+                        <span class="font-weight-300 font-m">
+                                Donec quis convallis nisi. Ut quis blandit mi. Quisque lobortis cursus risus at tempor. Suspendisse eu lacus rhoncus, mollis quam a, placerat metus.
+                        </span>
+                    </div>
+                </div>
+                <div class="carousel-slide fade">
+                    <div class="carousel-slide-text">
+                        <span class="font-weight-300 font-m">
+                                Cras scelerisque lectus ac porttitor ullamcorper. Praesent eu tellus et est iaculis blandit.
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <div class="carousel-prev" onclick="carouselDirectionButtonClick(-1)">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="carousel-next" onclick="carouselDirectionButtonClick(1)">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+
+            <div id="carousel-dots" class="carousel-dots-container" style="text-align:center">
+                <span class="carousel-dot" onclick="handleCarouselSlide(1)"></span>
+                <span class="carousel-dot" onclick="handleCarouselSlide(2)"></span>
+                <span class="carousel-dot" onclick="handleCarouselSlide(3)"></span>
+                <span class="carousel-dot" onclick="handleCarouselSlide(4)"></span>
+                <span class="carousel-dot" onclick="handleCarouselSlide(5)"></span>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="about-container">
+            <h2 class="heading heading-m">About us</h2>
+            <hr class="linebreak">
+            <p>Quisque mollis, risus sit amet tempor bibendum, velit enim facilisis magna,</p>
+            <div class="about-items">
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <div class="about-icon-circle">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h5 class="heading-m text-black font-weight-500">Lorem ipsum</h5>
+                        <p class="text-description">
+                            Suspendisse potenti. Cras in leo a metus feugiat sodales at quis augue. Donec
+                            ipsum risus, hendrerit a faucibus vitae, tincidunt eu lacus.
+                        </p>
+                    </div>
+                    <div class="flex-item">
+                        <div class="about-icon-circle">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <h5 class="heading-m text-black font-weight-500">Lorem ipsum</h5>
+                        <p class="text-description">
+                            Suspendisse potenti. Cras in leo a metus feugiat sodales at quis augue. Donec
+                            ipsum risus, hendrerit a faucibus vitae, tincidunt eu lacus.
+                        </p>
+                    </div>
+                    <div class="flex-item">
+                        <div class="about-icon-circle">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h5 class="heading-m text-black font-weight-500">Lorem ipsum</h5>
+                        <p class="text-description">
+                            Suspendisse potenti. Cras in leo a metus feugiat sodales at quis augue. Donec
+                            ipsum risus, hendrerit a faucibus vitae, tincidunt eu lacus.
+                        </p>
+                    </div>
+                    <div class="flex-item">
+                        <div class="about-icon-circle">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h5 class="heading-m text-black font-weight-500">Lorem ipsum</h5>
+                        <p class="text-description">
+                            Suspendisse potenti. Cras in leo a metus feugiat sodales at quis augue. Donec
+                            ipsum risus, hendrerit a faucibus vitae, tincidunt eu lacus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="button button-green">Learn more</button>
+        </div>
+    </section>
+</main>
+<footer>
+    <small style="height: 1000px; display: block">Footer Text</small>
+</footer>
+
+</body>
+</html>

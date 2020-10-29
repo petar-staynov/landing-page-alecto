@@ -1,0 +1,49 @@
+@media (min-width: 992px) {
+    body {
+        font-size: 14px;
+    }
+
+    .button {
+        font-size: 48px;
+    }
+
+    .flex-container {
+        flex-direction: row;
+    }
+
+    .font-xl {
+        font-size: 32px;
+    }
+
+    .font-l {
+        font-size: 24px;
+    }
+
+    .font-m {
+        font-size: 18px;
+    }
+
+    .font-s {
+        font-size: 14px;
+    }
+
+    .font-xs {
+        font-size: 12px;
+    }
+
+    .heading-xl {
+        font-size: 5rem;
+    }
+
+    .heading-l {
+        font-size: 4rem;
+    }
+
+    .heading-m {
+        font-size: 30px;
+    }
+
+    .heading-s {
+        font-size: 24px;
+    }
+}

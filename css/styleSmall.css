@@ -1,0 +1,56 @@
+@media (min-width: 576px) {
+    body {
+        font-size: 32px;
+    }
+
+    .button {
+        font-size: 48px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        font-size: 32px;
+    }
+
+    .font-xl {
+        font-size: 64px;
+    }
+
+    .font-l {
+        font-size: 56px;
+    }
+
+    .font-m {
+        font-size: 48px;
+    }
+
+    .font-s {
+        font-size: 32px;
+    }
+
+    .font-xs {
+        font-size: 24px;
+    }
+
+    .heading {
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .heading-xl {
+        font-size: 12rem;
+    }
+
+    .heading-l {
+        font-size: 10rem;
+    }
+
+    .heading-m {
+        font-size: 8rem;
+    }
+
+    .heading-s {
+        font-size: 6rem;
+    }
+}
