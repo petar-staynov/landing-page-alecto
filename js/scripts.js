@@ -19,7 +19,7 @@ const scrollFunction = () => {
         const viewWidth = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
 
         if(viewWidth >= 768){
-            navContainer.style.paddingTop = "30px";
+            navContainer.style.paddingTop = "42px";
         }
 
         if(!navContainer.classList.contains("responsive")){

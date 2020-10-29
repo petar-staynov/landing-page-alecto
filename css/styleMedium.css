@@ -1,7 +1,8 @@
 @media only screen and (min-width: 768px) {
     .nav-container {
-        font-size: 0.8em;
-        padding-top: 30px;
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 42px;
     }
 
     .nav-logo img {
@@ -16,12 +17,18 @@
         display: inline;
     }
 
+    .carousel-prev, .carousel-next {
+        margin: auto 48px;
+    }
+
     .carousel-slide img {
         max-width: 50%;
     }
 
     .flex-container {
         flex-direction: row;
+        margin: auto;
+        width: 80%
     }
 
     .flex-item {
@@ -29,7 +36,7 @@
     }
 
     .flex-sm-reverse-col {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .carousel-background img {
@@ -44,6 +51,10 @@
     .button {
         font-size: 32px;
         padding: 18px 64px;
+    }
+
+    .text-description {
+        font-size: 20px;
     }
 
     .text-xs {
@@ -64,6 +75,14 @@
 
     .text-xl {
         font-size: 2em;
+    }
+
+    .text-md-left {
+        text-align: left;
+    }
+
+    .section-heading {
+        text-align: center;
     }
 
     .heading-s {

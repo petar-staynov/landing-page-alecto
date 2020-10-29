@@ -1,53 +1,94 @@
-/*@media only screen and (min-width: 1200px) {*/
-/*    .flex-container {*/
-/*        flex-direction: row;*/
-/*    }*/
+@media only screen and (min-width: 1200px) {
+    .nav-left, .nav-right {
+        font-size: 18px;
+        font-weight: 400;
+        margin: auto 10%;
+    }
 
-/*    .flex-item {*/
-/*        flex-basis: 25%;*/
-/*    }*/
+    .carousel-prev, .carousel-next {
+        margin: auto 10%
+    }
 
-/*    .carousel-background img {*/
-/*        height: auto;*/
-/*    }*/
+    .flex-container {
+        flex-direction: row;
+    }
 
-/*    .fa-stack {*/
-/*        font-size: 5rem;*/
-/*    }*/
+    .flex-item {
+        flex-basis: 25%;
+    }
 
-/*    .text-xs {*/
-/*        font-size: 0.5em;*/
-/*    }*/
+    .flex-col-2 {
+        flex-basis: 50%;
+    }
 
-/*    .text-s {*/
-/*        font-size: 0.8em;*/
-/*    }*/
+    .flex-sm-reverse-col {
+        flex-direction: initial;
+    }
 
-/*    .text-m {*/
-/*        font-size: 1em;*/
-/*    }*/
+    .carousel-background img {
+        height: auto;
+    }
 
-/*    .text-l {*/
-/*        font-size: 1.5em;*/
-/*    }*/
+    .button {
+        font-size: 24px;
+        padding: 20px 84px
+    }
 
-/*    .text-xl {*/
-/*        font-size: 2em;*/
-/*    }*/
+    .desc-btn {
+        margin: 0;
+        margin-top: 10%;
+    }
 
-/*    .heading-s {*/
-/*        font-size: 1em;*/
-/*    }*/
+    .fa-stack {
+        font-size: 5rem;
+    }
 
-/*    .heading-m {*/
-/*        font-size: 1.2em;*/
-/*    }*/
+    .section-img {
+        width: 40%;
+    }
 
-/*    .heading-l {*/
-/*        font-size: 2em;*/
-/*    }*/
+    .text-description {
+        font-size: 18px;
+        margin: 0;
+    }
 
-/*    .heading-xl {*/
-/*        font-size: 3em;*/
-/*    }*/
-/*}*/
+    .text-xs {
+        font-size: 0.5em;
+    }
+
+    .text-s {
+        font-size: 0.8em;
+    }
+
+    .text-m {
+        font-size: 1em;
+    }
+
+    .text-l {
+        font-size: 1.5em;
+    }
+
+    .text-xl {
+        font-size: 2em;
+    }
+
+    .section-heading {
+        text-align: left;
+    }
+
+    .heading-s {
+        font-size: 1em;
+    }
+
+    .heading-m {
+        font-size: 1.2em;
+    }
+
+    .heading-l {
+        font-size: 2em;
+    }
+
+    .heading-xl {
+        font-size: 3em;
+    }
+}
