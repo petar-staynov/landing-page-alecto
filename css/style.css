@@ -268,22 +268,21 @@ a {
     text-align: center;
 }
 
-.about-icon-circle {
-    display: flex;
-    background: #eeeff1;
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
-    font-size: 50px;
-    text-align: center;
-    vertical-align: middle;
-    margin: auto;
-    padding: 40px;
+.circle {
+    color: #eeeff1;
 }
 
-.about-icon-circle:hover {
+.circle:hover {
+    color: #17daa2 !important;
+}
+
+.fa-inner-icon {
+    color: #87949e;
+    font-size: 3rem;
+}
+
+.fa-inner-icon:hover {
     color: white;
-    background: #17daa2;
 }
 
 .font-weight-100 {
