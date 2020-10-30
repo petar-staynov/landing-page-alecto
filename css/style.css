@@ -1,4 +1,4 @@
-/*----------------------SEMANTIC OVERIDES----------------------*/
+/*----------------------SEMANTIC OVERRIDES----------------------*/
 * {
     box-sizing: border-box
 }
@@ -15,7 +15,7 @@ a {
 
 /*----------------------NAV BAR----------------------*/
 .nav-container {
-    z-index: 9999;
+    z-index: 1;
     position: fixed;
     width: 100%;
     top: 0;
@@ -54,7 +54,6 @@ a {
 }
 
 .nav-right {
-    display: inline;
     float: right;
     padding-right: 3rem;
 }
@@ -103,10 +102,6 @@ li.nav-menu-btn {
 .carousel-background img {
     height: 15em;
     width: 100%;
-}
-
-.carousel-slides {
-
 }
 
 .carousel-slide {
@@ -161,7 +156,6 @@ li.nav-menu-btn {
 }
 
 .carousel-dot {
-    cursor: pointer;
     height: 8px;
     width: 8px;
     margin: 0 2px;
@@ -201,6 +195,7 @@ li.nav-menu-btn {
     }
 }
 
+/*----------------------SECTIONS----------------------*/
 .section-container {
     color: #576671;
 }
@@ -213,7 +208,6 @@ li.nav-menu-btn {
     padding-top: 5rem;
 }
 
-/*----------------------SECTIONS----------------------*/
 .circle {
     color: #eeeff1;
 }
@@ -261,6 +255,7 @@ li.nav-menu-btn {
 
 /*----------------------BUTTONS----------------------*/
 .button {
+    cursor: pointer;
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     font-weight: bold;

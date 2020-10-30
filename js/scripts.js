@@ -9,7 +9,6 @@ const scrollFunction = () => {
     const navContainer = document.getElementById("navContainer");
 
     const shrinkBreakpoint = 20; //pixels
-    const darkenBreakpoint = 500; //pixels
 
     if (bodyScrollTop > shrinkBreakpoint || documentScrollTop > shrinkBreakpoint) {
         navContainer.style.paddingTop = "5px";
@@ -48,7 +47,6 @@ window.onload = handleCarousel = () => {
     const carouselDots = document.getElementById("carousel-dots").children;
 
     const numberOfSlides = carouselSlides.length;
-    console.log(numberOfSlides)
 
     carouselSlides[currentCarouselSlide].style.display = 'block'
     carouselDots[currentCarouselSlide].classList.add('active');
@@ -58,7 +56,7 @@ window.onload = handleCarousel = () => {
         carouselDots[currentCarouselSlide].classList.remove('active');
 
         let nextCarouselSlide = currentCarouselSlide + value;
-        console.log(nextCarouselSlide)
+        
         if (nextCarouselSlide > numberOfSlides - 1) {
             nextCarouselSlide = 0;
         } else if (nextCarouselSlide < 0) {
@@ -68,10 +66,6 @@ window.onload = handleCarousel = () => {
         carouselSlides[nextCarouselSlide].style.display = 'block'
         carouselDots[nextCarouselSlide].classList.add('active');
         currentCarouselSlide = nextCarouselSlide;
-    }
-
-    handleCarousel.handleCarouselhandleCarouselSlide = (slideNum) => {
-        console.log(`handleCarouselSlide ${slideNum}`)
     }
 };
 
